@@ -223,21 +223,31 @@ For departments with more than four requested hosts, the topology displays the f
 
 ![Network Design](screenshots/network-design.png)
 
+The initial screen allows the user to enter the base network and specify the host requirements for each department.
+
 ### Subnet Allocation
 
 ![Subnet Allocation](screenshots/subnet-allocation.png)
 
-### Packet Simulation
-
-![Packet Simulation](screenshots/packet-simulation.png)
+The application displays the network summary, generated subnet allocation, IP address details, and address usage.
 
 ### Network Topology
 
 ![Network Topology](screenshots/network-topology.png)
 
+The generated topology shows the router, department switches, connected PCs, and their assigned IP addresses.
+
+### Packet Simulation
+
+![Packet Simulation](screenshots/packet-simulation.png)
+
+The packet simulation interface allows the user to select a source and destination and optionally disable devices for fault injection.
+
 ### Packet Delivered
 
 ![Packet Delivered](screenshots/packet-delivered.png)
+
+The application highlights the packet route and displays the delivery status, source, destination, and total number of hops.
 
 ---
 
